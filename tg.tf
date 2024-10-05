@@ -2,7 +2,7 @@ resource "aws_lb_target_group" "target-group" {
   name     = "ha-target-group"
   port     = 80
   protocol = "HTTP"
-  vpc_id = aws_vpc.vpc.id
+  vpc_id   = aws_vpc.vpc.id
   health_check {
     # interval = 70
     path = "/"
