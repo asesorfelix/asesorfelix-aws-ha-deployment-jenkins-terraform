@@ -3,7 +3,7 @@ resource "aws_launch_template" "template" {
   # ID of the Amazon Machine Image (AMI) to use for the instance
   image_id      = "ami-0fff1b9a61dec8a5f"
   instance_type = "t2.micro"
-  key_name      = "jenkins-3"
+  #key_name      = "jenkins"
 
   network_interfaces {
     device_index    = 0
