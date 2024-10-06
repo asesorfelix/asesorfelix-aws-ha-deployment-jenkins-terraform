@@ -15,7 +15,7 @@ resource "aws_launch_template" "template" {
 
     resource_type = "instance"
     tags = {
-      Name = "first"
+      Name = "second"
     }
   }
 }
